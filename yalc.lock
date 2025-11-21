@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "newbay-plugins": {
+      "signature": "1aa9b6eff7ca98ddff3d79a5e55fd16c",
+      "file": true
+    }
+  }
+}

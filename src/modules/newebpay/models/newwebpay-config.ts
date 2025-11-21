@@ -1,0 +1,47 @@
+import { model } from "@medusajs/framework/utils"
+
+const NewWebPayConfig = model.define("newWebPayConfig", {
+  id: model.id().primaryKey(),
+  Version: model.text(),
+  LangType:model.text().default("zh-tw"),
+  TradeLimit:model.number().default(0),
+  ExpireDate:model.text().nullable(),
+  ExpireTime:model.text().nullable(),
+  ReturnURL:model.text(),
+  NotifyURL:model.text(),
+  CustomerURL:model.text().nullable(),
+  ClientBackURL:model.text().nullable(),
+  EmailModify:model.number().default(1),
+  OrderComment:model.text().nullable(),
+  CREDIT:model.number().default(1),
+  APPLEPAY:model.number().default(0),
+  ANDROIDPAY:model.number().default(0),
+  SAMGSUNGPAY:model.number().default(0),
+  LINEPAY:model.number().default(0),
+  ImageUrl:model.text().nullable(),
+  InstFlag:model.number().default(0),
+  CreditRed:model.number().default(0),
+  UNIONPAY:model.number().default(0),
+  CREDITAE:model.number().default(0),
+  WEBATM:model.number().default(0),
+  VACC:model.number().default(0),
+  BankType:model.number().nullable(),
+  SourceType:model.number().default(0),
+  SourceBankId:model.number().nullable(),
+  SourceAccountNo:model.number().nullable(),
+  CVS:model.number().default(0),
+  BARCODE:model.number().default(0),
+  ESUNWALLET:model.number().default(0),
+  TAIWANPAY:model.number().default(0),
+  BITOPAY:model.number().default(0),
+  CVSCOM:model.number().default(0),
+  TWQR:model.number().default(0),
+  TWQR_LifeTime:model.number().default(300),
+  EZPWECHAT:model.number().default(0),
+  EZPALIPAY:model.number().default(0),
+  LGSTYPE:model.text().nullable(),
+  WalletDisplayMode:model.number().default(0)  
+})
+
+
+export default NewWebPayConfig
