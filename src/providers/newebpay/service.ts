@@ -2,8 +2,7 @@ import { AbstractPaymentProvider } from "@medusajs/framework/utils"
 import { CreatePaymentSessionDTO,
          CreatePaymentProviderSession, Logger, PaymentProviderError, 
          PaymentProviderSessionResponse, PaymentSessionStatus, ProviderWebhookPayload, 
-         UpdatePaymentProviderSession, WebhookActionResult,
-         RefundPaymentInput, RefundPaymentOutput } from "@medusajs/framework/types"
+         UpdatePaymentProviderSession, WebhookActionResult } from "@medusajs/framework/types"
 import { NewebPayUtils } from "./utils"
 import qs from 'qs';
 
@@ -142,16 +141,11 @@ export default class newebpayPaymentProviderService extends AbstractPaymentProvi
   getPaymentStatus(paymentSessionData: Record<string, unknown>): Promise<PaymentSessionStatus> {
     throw new Error("Method not implemented.")
   }
-  refundPayment(input:RefundPaymentInput):Promise<RefundPaymentOutput> {
-    console.log(input);
-    console.log(input.data);
-    console.log(input.amount);
-    console.log(input.context);
+  async refundPayment(RefundPaymentInput: Record<string, any>, refundAmount: number): Promise<PaymentProviderError | { data:any }> {
+    console.log(RefundPaymentInput);
     return {
-    data: {
-      data: input
+      data:""
     }
-   }
   }
   retrievePayment(paymentSessionData: Record<string, unknown>): Promise<PaymentProviderError | PaymentProviderSessionResponse["data"]> {
     throw new Error("Method not implemented.")
