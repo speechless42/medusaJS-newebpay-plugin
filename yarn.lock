@@ -1560,7 +1560,7 @@
     tailwindcss "^3.3.6"
     vite "^5.2.11"
 
-"@medusajs/admin-sdk@>=2.4.0", "@medusajs/admin-sdk@2.4.0":
+"@medusajs/admin-sdk@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/admin-sdk/-/admin-sdk-2.4.0.tgz"
   integrity sha512-Iq+HDRFLyJcZoYhgA/GNUzSmCbKmzaCFS1reXbrm1mks8U+vQqwyDNS8pIOyAvbA+fsmueqLbJ6GjEbOPxwWxg==
@@ -1633,7 +1633,7 @@
   resolved "https://registry.npmjs.org/@medusajs/cart/-/cart-2.4.0.tgz"
   integrity sha512-BgXZvHpHKnjShT3KrOZQss79QnQixlcHbJi2ujhHfLtb630W8RweAwKwUyxOeMOOJKUDeqsvL9l9r/iFZicVRQ==
 
-"@medusajs/cli@>=2.4.0", "@medusajs/cli@~2.4.0", "@medusajs/cli@2.4.0":
+"@medusajs/cli@~2.4.0", "@medusajs/cli@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/cli/-/cli-2.4.0.tgz"
   integrity sha512-rT3uLg3vYXgIY04DHMHVozpHgPQBzlxqbxjLJyhGla92Zsc+6J9fSi44N7Cj6HPbUBYj7NLX1OsvMohnfEmq1A==
@@ -1753,7 +1753,7 @@
   resolved "https://registry.npmjs.org/@medusajs/file/-/file-2.4.0.tgz"
   integrity sha512-WPw609irwlfKHx8dZZj8l/m0JOfkCQxyZKRAoO+1hbqoeJdiAg/SP3QmEH0ZLtZ53LIb9OuFnaqAFxV440uicQ==
 
-"@medusajs/framework@>=2.4.0", "@medusajs/framework@~2.4.0", "@medusajs/framework@2.4.0":
+"@medusajs/framework@~2.4.0", "@medusajs/framework@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/framework/-/framework-2.4.0.tgz"
   integrity sha512-Z1y7epefX3g/rAPclsmExAUNuGZWvXaaF5MnfUf/2/ptz5oyLnmDw5dXAUVx4kWqrGo+Ihws3RkSJ8VdC0YEkw==
@@ -1791,7 +1791,7 @@
   resolved "https://registry.npmjs.org/@medusajs/fulfillment/-/fulfillment-2.4.0.tgz"
   integrity sha512-3rERwIkWPiZmZPSNR7Jy3cMc+VCjNauT/wUMKRWRuNDB2oFlMPoMfz5YZJj6czOvHfVaLQybnqBxl4vK5IyDbA==
 
-"@medusajs/icons@>=2.4.0", "@medusajs/icons@~2.4.0", "@medusajs/icons@2.4.0":
+"@medusajs/icons@~2.4.0", "@medusajs/icons@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/icons/-/icons-2.4.0.tgz"
   integrity sha512-aV1IMycbSPuqFXtXFuU/KA/gNsgUc5EZ+TzQgNPaU7vOGEbUeYPrSSgD96SQijJ2CZpvV0Fs9CaLqEbVXQmmQQ==
@@ -1846,7 +1846,7 @@
   resolved "https://registry.npmjs.org/@medusajs/locking/-/locking-2.4.0.tgz"
   integrity sha512-oubYFE+u1oZv+U1C5DwZcEUbfA8QyvITYFBlJTu+mqDdSTzHNJ1S0IlPMc8JVyCb8DKUf4j/4F5UROayLh9Pjw==
 
-"@medusajs/medusa@>=2.4.0", "@medusajs/medusa@~2.4.0", "@medusajs/medusa@2.4.0":
+"@medusajs/medusa@~2.4.0", "@medusajs/medusa@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-2.4.0.tgz"
   integrity sha512-SKd3f7LiuLqAZraPdMu/XBxQqz1+/TlfoERKyp7NNAfRY2ED4lsRf0B+vVonvN6VLbAFJ9cfsjSOPy1qjThHaw==
@@ -2022,7 +2022,7 @@
     remove-trailing-slash "^0.1.1"
     uuid "^8.3.2"
 
-"@medusajs/test-utils@>=2.4.0", "@medusajs/test-utils@2.4.0":
+"@medusajs/test-utils@2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@medusajs/test-utils/-/test-utils-2.4.0.tgz"
   integrity sha512-vWW+dEwopyL66gCS/Jmev0Hj4ENPISUAc7Gt1XwKLsHn+fzLyibhvlYN48zJ+bskXh4OicIeS7CX0+VPBZO4eA==
